@@ -1,0 +1,6 @@
+services:
+  honigbiene:
+    image: honigbiene
+    container_name: fbg-honigbiene
+    env_file:
+      - .env
